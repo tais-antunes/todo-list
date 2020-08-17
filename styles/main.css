@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9871F5;
+}
+
+.content {
+    background-color: white;
+    height: 15.0rem auto;
+    width: 20.0rem auto;
+    padding: 1.5rem;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+}
+
+p, .todo {
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.button {
+    background-color: #9871F5;
+    height: 2.0rem;
+    width: 4.5rem;
+    color: white;
+    border: none;
+}
+
+input {
+    height: 2.0rem;
+    width: 13.0rem;
+    border-color: lightgrey;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #9871F5;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    color: #6842c2;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btnExcluir {
+    height: 1.8rem;
+    padding: 0.2rem;
+    width: 4.5rem;
+    background-color: #9871F5;
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-left: 1.0rem;
+}
